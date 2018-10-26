@@ -1,0 +1,10 @@
+﻿
+@{
+    ViewBag.Title = "文件上传";
+}
+@using (Html.BeginForm("UploadImage", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <input type="file" name="image" />
+    <input type="submit" value="上传" />
+}
+
