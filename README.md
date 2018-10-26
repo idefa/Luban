@@ -19,4 +19,7 @@ public int Quality { get; set; } = 60;
 Compress(string outputPath)
 ```
 
->参考[Luban-Py](https://github.com/Freefighter/Luban-Py)
+>参考 [Luban-Py](https://github.com/Freefighter/Luban-Py)
+
+## 结果
+![测试](LubanSample/LubanSample/Images/20181026/测试.jpg)
